@@ -1,0 +1,9 @@
+[submodule "deps/quickjs"]
+	path = deps/quickjs
+	url = git@ssh.github.com:bellard/quickjs.git
+[submodule "deps/dear_bindings"]
+	path = deps/dear_bindings
+	url = git@ssh.github.com:dearimgui/dear_bindings.git
+[submodule "deps/imgui"]
+	path = deps/imgui
+	url = git@ssh.github.com:ocornut/imgui.git

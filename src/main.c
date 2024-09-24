@@ -42,6 +42,7 @@ int main(int argc, char *argv[])
 		SDL_RenderPresent(renderer);
 	}
 
+	cImGui_ImplSDLRenderer2_Shutdown();
 	cImGui_ImplSDL2_Shutdown();
 	ImGui_DestroyContext(NULL);
 	SDL_Quit();
